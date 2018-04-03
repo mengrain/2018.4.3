@@ -2,13 +2,13 @@
   <div class="about">
     <div class="top">
 			<div class="con">
-				首页 ＞ 全新楼盘
+				首页 ＞ 二手楼盘
 			</div>
 		</div>
 		
 		<div class="main">
     	<!--内容左-数据列表-->
-    	<div class="h5"><span></span>全新楼盘/ NEW APARTMENT</div>
+    	<div class="h5"><span></span>二手楼盘/ NEW APARTMENT</div>
     	<div class="main-left">
           <!--组件-->        
           <div class="text" v-for="i in arr">         	
@@ -78,6 +78,7 @@ export default {
 		padding-bottom: 30px;
 	}
 	.h5{
+		float: left;
 		width: 100%;
 		height: 120px;
 		line-height: 120px;
@@ -133,7 +134,7 @@ export default {
 		width: 23%;
 		float: right;
 	}
- .main-right{
+    .main-right{
 		width: 100%;
 		float: left;
 		background-color: #F7F7F7;
